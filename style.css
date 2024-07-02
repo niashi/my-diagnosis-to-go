@@ -1,0 +1,105 @@
+#container {
+    height: 300px;
+    width: 500px;
+    border: 5px dashed black;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0;
+}
+
+#name {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.image:hover {
+    width: 220px;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+#autismo1 {
+    width: 200px;
+}
+
+#autismo1:hover {
+    width: 220px;
+}
+
+#autismo2 {
+    width: 150px;
+}
+
+#autismo2:hover {
+    width: 170px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #e3f7fd;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, .5);
+    -webkit-box-shadow:0 0 10px #303030;
+    /* border: 5px solid rgb(0, 0, 0); */
+    border-radius: 10px;
+    width: 300px;
+    width: 800px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding-top: 100px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    body {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    #container {
+        height: 650px;
+        width: 200px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    body {
+        width: 350px;
+        height: 700px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
